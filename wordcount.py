@@ -25,7 +25,7 @@ should return a dictionary with words as keys, and their counts as values.
 
 # Your name, plus anyone who helped you with this assignment
 # Give credit where credit is due.
-__author__ = "???"
+__author__ = "Kathryn Anderson"
 
 import sys
 
@@ -33,6 +33,7 @@ import sys
 def create_word_dict(filename):
     """Returns a word/count dict for the given file."""
     # Your code here
+    # my code will go here
     return
 
 
