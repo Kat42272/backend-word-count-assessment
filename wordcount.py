@@ -51,7 +51,7 @@ def print_words(filename):
     dict_items = new_dict.items()
     sorted_items = sorted(dict_items)
     for word in sorted_items:
-        return(str(word[0]) + ' : ' + str(word[1]))
+        print(str(word[0]) + ' : ' + str(word[1]))
 
 
 def print_top(filename):
@@ -60,7 +60,7 @@ def print_top(filename):
     dict_items = new_dict.items()
     sorted_items = sorted(dict_items, key=lambda x: x[1], reverse=True)
     for word in sorted_items[:20]:
-        return(str(word[0]) + ' : ' + str(word[1]))
+        print(str(word[0]) + ' : ' + str(word[1]))
 
 
 # This basic command line argument parsing code is provided and calls
